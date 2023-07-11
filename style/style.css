@@ -7,6 +7,9 @@
 body {
   font-family: "Lato", sans-serif;
 }
+
+/* Hader style section */
+
 header {
   background-color: rgba(229, 84, 115, 0.1);
 }
@@ -33,7 +36,7 @@ header {
 .section-description {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 400px;
   line-height: 30px;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -48,6 +51,8 @@ header {
 .section-col-2 {
   padding: 50px 240px 0 97px;
 }
+
+/* Our Featured Flowers Style Section */
 
 .main-sec1-col-1 {
   margin-top: 178px;
@@ -112,6 +117,9 @@ header {
 .h5 {
   margin: auto 310px;
 }
+
+/* Same Day Delivery Section */
+
 .main-sec2 {
   max-width: 1440px;
   border-radius: 8px;
@@ -127,6 +135,8 @@ header {
   margin-right: 100px;
   text-align: center;
 }
+
+/* Hot Deal ! Sale Up To 25% style Section */
 
 .main-sec3 {
   border-radius: 8px;
@@ -162,6 +172,8 @@ header {
   padding-left: 196px;
 }
 
+/* Instagram Style section */
+
 .main-sec4 {
   margin-top: 128px;
   text-align: center;
@@ -181,6 +193,22 @@ header {
   font-weight: 400;
   line-height: 30px;
 }
+
+.main-sec4-col-2 {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.single_image{
+  width: 25%;
+  padding: 0 15px;
+}
+.single_image img{
+  width: 100%;
+}
+
+/* Get The Latest Deals Style section */
 
 .main-sec5 {
   text-align: center;
@@ -213,7 +241,7 @@ header {
   margin-right: 16px;
 }
 
-/* Contact Us Style */
+/* Contact Us Style Section */
 
 .section-container {
   border-radius: 8px;
@@ -249,9 +277,12 @@ header {
   line-height: 25px;
   margin: 20px auto;
 }
+#icon{
+  margin-bottom: 15px;
+}
 
+/* Footer style Section*/
 
-/* Footer style */
 .footer-container {
   background-color: #111010;
   margin-top: 128px;
@@ -281,16 +312,3 @@ header {
   padding-bottom: 128px;
 }
 
-.main-sec4-col-2 {
-  display: flex;
-  justify-content: center;
-  column-gap: 24px;
-}
-
-.single_image{
-  width: 25%;
-  padding: 0 15px;
-}
-.single_image img{
-  width: 100%;
-}
